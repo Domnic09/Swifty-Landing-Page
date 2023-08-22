@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    /* margin-right: 1rem;
+    margin-left: 1rem; */
+    /* background-color: #1F2937; */
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+}
+.header, .body{
+    background-color: #1F2937;
+    
+    /* color: #e5e7eb; */
+}
+.header{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+
+    
+}
+.right-links{
+    display: flex;
+    gap: 19px;
+}
+.logo{
+    font-weight: bolder;
+}
+a, p{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button.but1{
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    margin-right: 310px;
+    margin-top: 10px;
+}
+.body{
+    display: flex;
+    padding: 20px;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+p.hero-main{
+    font-size: 48px;
+    font-weight: bolder;  
+    margin: 0;
+    padding: 0;
+}
+p.hero-second{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.cards{
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    gap: 150px;
+}
+.card {
+    /* border: 1px solid #eee; */
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 16px;
+    margin: 16px;
+    width: 425px;
+
+}
+.card2{
+    /* box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 16px;
+    margin: 16px;
+    width: 230px;
+}
+img{
+    
+    width: 480px;
+    height: 300px;
+}
+#sec2s{
+    border: 4px solid rgb(46, 161, 206);
+    width: 200px;
+    height: 200px;
+}
+.sec2{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+    padding: 0;
+}
+.headsec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.sec3{
+    background-color: #e5e7eb;
+    padding: 50px;
+    display: block;
+}
+.card3 {
+    /* border: 1px solid #eee; */
+    /* box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 16px;
+    margin: 16px;
+    width: 1000px;
+
+}
+.sec3s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qoute{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.sec3s .ts{
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 685px;
+
+}
+.sec4{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ready{
+    color: white;
+
+}
+.go{
+    font-size: 15px;
+}
+.card4 {
+    /* border: 1px solid #eee; */
+    /* box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 16px;
+    width: 1100px;
+    background-color: rgb(74, 74, 248);
+    border-radius: 20px;
+}
+button.but2{
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.button-placement{
+    /* display: flex;
+    justify-content: flex-end; */
+}
+.footer{
+    background-color: rgb(54, 51, 51);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
